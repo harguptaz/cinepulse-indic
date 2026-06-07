@@ -1,0 +1,279 @@
+(venv) C:\Users\Admin\OneDrive\Documents\Study_Material\sem2\GenAI\EL\cinepulse-indic\cinepulse-indic\backend>python run_pipeline.py
+
+=======================================================
+  CinePulse-Indic | Full Pipeline
+  Started: 2026-06-03 17:49:19
+=======================================================
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Step 1/7 — Merge Sources
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+=======================================================
+  CinePulse-Indic | Source Merger
+=======================================================
+
+── Merging sources for: HINDI ──────────────────
+  ✓ YouTube   :  7310 comments loaded
+  ✓ Reddit    :  2460 comments loaded
+  Dropped 243 duplicate comment IDs.
+  ✅ Saved 9527 comments → data\raw\merged_hindi_raw.csv
+     youtube     : 7310
+     reddit      : 2217
+
+── Merging sources for: TELUGU ──────────────────
+  ✓ YouTube   :  5150 comments loaded
+  ✓ Reddit    :  1462 comments loaded
+  Dropped 132 duplicate comment IDs.
+  ✅ Saved 6480 comments → data\raw\merged_telugu_raw.csv
+     youtube     : 5150
+     reddit      : 1330
+
+=======================================================
+  Merge complete.
+=======================================================
+
+
+  ⏱  Step 1 completed in 3.5s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Step 2/7 — Language Detection
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+=======================================================
+  CinePulse-Indic | Language Detector
+=======================================================
+
+── Processing: HINDI ──────────────────────────
+  Detecting languages: 100%|███████████████████████████████████████████████████████████████████████████████████████████████| 9527/9527 [00:49<00:00, 193.73it/s]
+
+  Language distribution:
+    en             :  8300  (87.1%)
+    mixed_roman    :   808  (8.5%)
+    unknown        :   354  (3.7%)
+    hi             :    65  (0.7%)
+
+  ✅ Updated: data\raw\merged_hindi_raw.csv
+
+── Processing: TELUGU ──────────────────────────
+  Detecting languages: 100%|███████████████████████████████████████████████████████████████████████████████████████████████| 6480/6480 [00:39<00:00, 164.59it/s]
+
+  Language distribution:
+    en             :  5291  (81.7%)
+    mixed_roman    :   542  (8.4%)
+    unknown        :   324  (5.0%)
+    te             :   301  (4.6%)
+    hi             :    22  (0.3%)
+
+  ✅ Updated: data\raw\merged_telugu_raw.csv
+
+=======================================================
+  Language detection complete.
+=======================================================
+
+
+  ⏱  Step 2 completed in 89.0s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Step 3/7 — Transliteration
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+=======================================================
+  CinePulse-Indic | Transliterator
+=======================================================
+
+── Processing: HINDI ──────────────────────────
+  Roman-script rows found: 808
+  ℹ  ai4bharat-transliteration not available on Python 3.12.
+     Running in fallback mode — Roman-script text kept as-is.
+     MuRIL handles Romanized Indian text natively, so sentiment
+     accuracy is not significantly affected.
+  Fallback: 808 Roman-script comments will be
+  processed as-is by MuRIL (still effective for sentiment).
+  ✅ Updated: data\raw\merged_hindi_raw.csv
+
+── Processing: TELUGU ──────────────────────────
+  Roman-script rows found: 542
+  ℹ  ai4bharat-transliteration not available on Python 3.12.
+     Running in fallback mode — Roman-script text kept as-is.
+     MuRIL handles Romanized Indian text natively, so sentiment
+     accuracy is not significantly affected.
+  Fallback: 542 Roman-script comments will be
+  processed as-is by MuRIL (still effective for sentiment).
+  ✅ Updated: data\raw\merged_telugu_raw.csv
+
+=======================================================
+  Transliteration step complete.
+=======================================================
+
+
+  ⏱  Step 3 completed in 0.4s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Step 4/7 — Text Cleaning
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+=======================================================
+  CinePulse-Indic | Text Cleaner
+=======================================================
+
+── Processing: HINDI ──────────────────────────
+  Input column : transliterated_text
+  Cleaning (hindi): 100%|████████████████████████████████████████████████████████████████████████████████████████████████| 9527/9527 [00:00<00:00, 13300.15it/s]
+  Short comments flagged : 738 (7.7%)
+  Empty after cleaning   : 161
+  ✅ Saved 9527 rows → data\processed\hindi_processed.csv
+
+── Processing: TELUGU ──────────────────────────
+  Input column : transliterated_text
+  Cleaning (telugu): 100%|███████████████████████████████████████████████████████████████████████████████████████████████| 6480/6480 [00:00<00:00, 19288.63it/s]
+  Short comments flagged : 535 (8.3%)
+  Empty after cleaning   : 135
+  ✅ Saved 6480 rows → data\processed\telugu_processed.csv
+
+=======================================================
+  Cleaning complete.
+=======================================================
+
+
+  ⏱  Step 4 completed in 1.6s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Step 5/7 — Sentiment Analysis
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+C:\Users\Admin\OneDrive\Documents\Study_Material\sem2\GenAI\EL\cinepulse-indic\cinepulse-indic\backend\venv\Lib\site-packages\requests\__init__.py:113: RequestsDependencyWarning: urllib3 (2.7.0) or chardet (7.4.3)/charset_normalizer (3.4.7) doesn't match a supported version!
+  warnings.warn(
+=======================================================
+  CinePulse-Indic | Sentiment Engine (MuRIL)
+=======================================================
+  Loading model: C:\Users\Admin\OneDrive\Documents\Study_Material\sem2\GenAI\EL\cinepulse-indic\cinepulse-indic\backend\models\muril-base-cased
+  Device       : cuda
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at C:\Users\Admin\OneDrive\Documents\Study_Material\sem2\GenAI\EL\cinepulse-indic\cinepulse-indic\backend\models\muril-base-cased and are newly initialized: ['classifier.bias', 'classifier.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+  ✓ Model loaded
+
+
+── Processing: HINDI ──────────────────────────
+  Rows to process: 9527
+  Sentiment inference:   0%|                                                                                                      | 0/298 [00:00<?, ? batches/s]C:\Users\Admin\OneDrive\Documents\Study_Material\sem2\GenAI\EL\cinepulse-indic\cinepulse-indic\backend\venv\Lib\site-packages\transformers\models\bert\modeling_bert.py:435: UserWarning: 1Torch was not compiled with flash attention. (Triggered internally at C:\actions-runner\_work\pytorch\pytorch\builder\windows\pytorch\aten\src\ATen\native\transformers\cuda\sdp_utils.cpp:555.)
+  attn_output = torch.nn.functional.scaled_dot_product_attention(
+  Sentiment inference: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 298/298 [02:30<00:00,  1.98 batches/s]
+
+  Sentiment distribution:
+    NEUTRAL     :  9527  (100.0%)
+  Avg weighted score: 0.0000
+
+  ✅ Saved → data\sentiment\hindi_sentiment.csv
+
+── Processing: TELUGU ──────────────────────────
+  Rows to process: 6480
+  Sentiment inference: 100%|████████████████████████████████████████████████████████████████████████████████████████████| 203/203 [01:23<00:00,  2.42 batches/s]
+
+  Sentiment distribution:
+    NEUTRAL     :  6480  (100.0%)
+  Avg weighted score: 0.0000
+
+  ✅ Saved → data\sentiment\telugu_sentiment.csv
+
+=======================================================
+  Sentiment analysis complete.
+=======================================================
+
+
+  ⏱  Step 5 completed in 259.0s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Step 6/7 — Aspect Extraction
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+=======================================================
+  CinePulse-Indic | Aspect Extractor (BART zero-shot)
+=======================================================
+  Loading model : facebook/bart-large-mnli
+  Device        : cuda
+'(ProtocolError('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)), '(Request ID: 80a72e74-b483-45de-b254-6224446ed4e4)')' thrown while requesting HEAD https://huggingface.co/facebook/bart-large-mnli/resolve/main/config.json
+Retrying in 1s [Retry 1/5].
+  ✓ Model loaded
+
+
+── Processing: HINDI ──────────────────────────
+  Rows to process: 9527
+  Aspect extraction:   2%|█▌                                                                                             | 10/596 [00:38<32:30,  3.33s/ batches]You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  Aspect extraction: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 596/596 [26:22<00:00,  2.66s/ batches]
+
+  Aspect distribution:
+    general        :  7289  (76.5%)
+    acting         :   931  (9.8%)
+    dub_quality    :   479  (5.0%)
+    plot           :   347  (3.6%)
+    direction      :   224  (2.4%)
+    audio          :   202  (2.1%)
+    technical      :    55  (0.6%)
+
+  Per-aspect sentiment:
+    acting         : +0% -0% ~100%
+    audio          : +0% -0% ~100%
+    technical      : +0% -0% ~100%
+    plot           : +0% -0% ~100%
+    dub_quality    : +0% -0% ~100%
+    direction      : +0% -0% ~100%
+    general        : +0% -0% ~100%
+
+  ✅ Saved → data\aspects\hindi_aspects.csv
+
+── Processing: TELUGU ──────────────────────────
+  Rows to process: 6480
+  Aspect extraction: 100%|██████████████████████████████████████████████████████████████████████████████████████████████| 405/405 [12:05<00:00,  1.79s/ batches]
+
+  Aspect distribution:
+    general        :  5202  (80.3%)
+    dub_quality    :   708  (10.9%)
+    acting         :   230  (3.5%)
+    plot           :   168  (2.6%)
+    audio          :    92  (1.4%)
+    direction      :    72  (1.1%)
+    technical      :     8  (0.1%)
+
+  Per-aspect sentiment:
+    acting         : +0% -0% ~100%
+    audio          : +0% -0% ~100%
+    technical      : +0% -0% ~100%
+    plot           : +0% -0% ~100%
+    dub_quality    : +0% -0% ~100%
+    direction      : +0% -0% ~100%
+    general        : +0% -0% ~100%
+
+  ✅ Saved → data\aspects\telugu_aspects.csv
+
+=======================================================
+  Aspect extraction complete.
+=======================================================
+
+
+  ⏱  Step 6 completed in 2315.3s
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  Step 7/7 — Aggregation
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+=======================================================
+  CinePulse-Indic | Aggregator
+=======================================================
+  ✓ Loaded hindi: 9527 rows
+  ✓ Loaded telugu: 6480 rows
+
+  ✅ Scores    → data\aggregated\dhurandhar_scores.json
+  ✅ Timeline  → data\aggregated\dhurandhar_timeline.json
+  ✅ Report    → data\aggregated\dhurandhar_report_data.json
+
+  ────────────────────────────────────────
+  SUMMARY — Dhurandhar
+  ────────────────────────────────────────
+  HINDI      Total:  9527  +0.0% -0.0% ~100.0%  Score: +0.000
+  TELUGU     Total:  6480  +0.0% -0.0% ~100.0%  Score: +0.000
+
+=======================================================
+  Aggregation complete.
+=======================================================
+
+
+  ⏱  Step 7 completed in 0.6s
+
+=======================================================
+  ✅ Pipeline complete in 44.5 minutes
+  Dashboard data ready in: backend/data/aggregated/
+=======================================================
