@@ -1,0 +1,89 @@
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+backend/.venv/
+
+# ── Environment / secrets ─────────────────────────────────────
+# IMPORTANT: .env contains your YouTube API key — never commit it
+backend/.env
+.env
+*.env
+
+# ── ML model files ────────────────────────────────────────────
+# Models are large (1-2 GB) — download separately, don't commit
+backend/models/
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# ── Data files ────────────────────────────────────────────────
+# Raw scraped data — keep off GitHub (privacy + size)
+backend/data/raw/
+backend/data/processed/
+backend/data/sentiment/
+backend/data/aspects/
+
+# Aggregated JSON is safe to commit (no PII) — uncomment to exclude:
+# backend/data/aggregated/
+
+# ── Generated outputs ─────────────────────────────────────────
+backend/data/aggregated/*.pdf
+*.pdf
+
+# ── Node / Frontend ───────────────────────────────────────────
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+node_modules/
+dist/
+
+# ── OS files ──────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# ── IDE / Editor ──────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+
+# ── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+pip-log.txt
+
+# ── Pytest / Coverage ─────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── Temporary files ───────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
+tmp/
+temp/

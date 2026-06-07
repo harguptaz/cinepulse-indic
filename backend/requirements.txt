@@ -1,0 +1,41 @@
+# ── API & Server ──────────────────────────────────────────────
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+python-multipart==0.0.9
+
+# ── Data Handling ─────────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+
+# ── YouTube Scraping ──────────────────────────────────────────
+google-api-python-client==2.131.0
+
+# ── Language Detection ────────────────────────────────────────
+langdetect==1.0.9
+
+# ── Text Cleaning ─────────────────────────────────────────────
+emoji==2.11.1
+
+# ── ML Models ─────────────────────────────────────────────────
+# NOTE: torch is intentionally unpinned.
+# Install manually BEFORE running pip install -r requirements.txt:
+#
+#   CPU only:
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+#
+#   GPU (CUDA 12.1):
+#     pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+transformers==4.41.2
+sentencepiece==0.2.0
+protobuf==4.25.3
+accelerate==0.30.0
+
+# ── PDF Report Generation ─────────────────────────────────────
+reportlab==4.2.0
+Pillow==10.3.0
+
+# ── Utilities ─────────────────────────────────────────────────
+python-dotenv==1.0.1
+tqdm==4.66.4
+requests==2.32.3

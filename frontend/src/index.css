@@ -1,0 +1,104 @@
+/* ── Design tokens ──────────────────────────────────────────── */
+:root {
+  --hindi:       #E85D04;
+  --hindi-light: #FFF3E8;
+  --telugu:      #0077B6;
+  --telugu-light:#E8F4FD;
+  --positive:    #2D6A4F;
+  --negative:    #D62828;
+  --neutral:     #6B7280;
+  --accent:      #FFB703;
+  --bg:          #0A0A0F;
+  --bg-card:     #13131A;
+  --bg-raised:   #1C1C26;
+  --border:      rgba(255,255,255,0.08);
+  --text:        #F0F0F0;
+  --text-muted:  #888899;
+  --radius:      12px;
+  --radius-lg:   20px;
+  --shadow:      0 4px 24px rgba(0,0,0,0.4);
+}
+
+/* ── Reset ──────────────────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+/* ── Scrollbar ──────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.15); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.25); }
+
+/* ── Utility classes ────────────────────────────────────────── */
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+}
+
+.card-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 16px;
+}
+
+.hindi-dot  { color: var(--hindi);  }
+.telugu-dot { color: var(--telugu); }
+.pos-text   { color: var(--positive); }
+.neg-text   { color: var(--negative); }
+.neu-text   { color: var(--neutral);  }
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.badge-pos { background: rgba(45,106,79,0.2);  color: #4ade80; }
+.badge-neg { background: rgba(214,40,40,0.2);  color: #f87171; }
+.badge-neu { background: rgba(107,114,128,0.2);color: #9ca3af; }
+.badge-hi  { background: rgba(232,93,4,0.15);  color: var(--hindi); }
+.badge-te  { background: rgba(0,119,182,0.15); color: var(--telugu); }
+
+/* ── Loading spinner ────────────────────────────────────────── */
+@keyframes spin { to { transform: rotate(360deg); } }
+.spinner {
+  width: 36px; height: 36px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+/* ── Fade in animation ──────────────────────────────────────── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.fade-up { animation: fadeUp 0.4s ease forwards; }
