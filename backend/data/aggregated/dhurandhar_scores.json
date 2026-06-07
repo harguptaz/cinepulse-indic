@@ -1,0 +1,135 @@
+{
+  "movie": "Dhurandhar",
+  "release_date": "2025-06-05",
+  "generated_at": "2026-06-03T14:38:12.124366+00:00",
+  "languages": {
+    "hindi": {
+      "total_comments": 9527,
+      "source_breakdown": {
+        "youtube": 7310,
+        "reddit": 2217
+      },
+      "overall": {
+        "positive_pct": 33.25,
+        "negative_pct": 36.59,
+        "neutral_pct": 30.16,
+        "weighted_sentiment_score": -0.058
+      },
+      "aspects": {
+        "acting": {
+          "comment_count": 922,
+          "positive_pct": 53.25,
+          "negative_pct": 31.24,
+          "neutral_pct": 15.51,
+          "weighted_sentiment_score": 0.1818
+        },
+        "audio": {
+          "comment_count": 199,
+          "positive_pct": 52.26,
+          "negative_pct": 15.08,
+          "neutral_pct": 32.66,
+          "weighted_sentiment_score": 0.3592
+        },
+        "technical": {
+          "comment_count": 53,
+          "positive_pct": 41.51,
+          "negative_pct": 33.96,
+          "neutral_pct": 24.53,
+          "weighted_sentiment_score": -0.0332
+        },
+        "plot": {
+          "comment_count": 345,
+          "positive_pct": 32.75,
+          "negative_pct": 47.25,
+          "neutral_pct": 20.0,
+          "weighted_sentiment_score": -0.0745
+        },
+        "dub_quality": {
+          "comment_count": 421,
+          "positive_pct": 21.38,
+          "negative_pct": 42.04,
+          "neutral_pct": 36.58,
+          "weighted_sentiment_score": -0.2041
+        },
+        "direction": {
+          "comment_count": 221,
+          "positive_pct": 49.77,
+          "negative_pct": 34.84,
+          "neutral_pct": 15.38,
+          "weighted_sentiment_score": 0.0866
+        },
+        "general": {
+          "comment_count": 7366,
+          "positive_pct": 30.38,
+          "negative_pct": 37.1,
+          "neutral_pct": 32.51,
+          "weighted_sentiment_score": -0.1001
+        }
+      }
+    },
+    "telugu": {
+      "total_comments": 6480,
+      "source_breakdown": {
+        "youtube": 5150,
+        "reddit": 1330
+      },
+      "overall": {
+        "positive_pct": 32.41,
+        "negative_pct": 38.16,
+        "neutral_pct": 29.43,
+        "weighted_sentiment_score": -0.1247
+      },
+      "aspects": {
+        "acting": {
+          "comment_count": 230,
+          "positive_pct": 46.52,
+          "negative_pct": 31.74,
+          "neutral_pct": 21.74,
+          "weighted_sentiment_score": -0.037
+        },
+        "audio": {
+          "comment_count": 92,
+          "positive_pct": 50.0,
+          "negative_pct": 23.91,
+          "neutral_pct": 26.09,
+          "weighted_sentiment_score": 0.2258
+        },
+        "technical": {
+          "comment_count": 8,
+          "positive_pct": 50.0,
+          "negative_pct": 37.5,
+          "neutral_pct": 12.5,
+          "weighted_sentiment_score": 0.2558
+        },
+        "plot": {
+          "comment_count": 168,
+          "positive_pct": 33.33,
+          "negative_pct": 46.43,
+          "neutral_pct": 20.24,
+          "weighted_sentiment_score": -0.1355
+        },
+        "dub_quality": {
+          "comment_count": 708,
+          "positive_pct": 23.02,
+          "negative_pct": 49.58,
+          "neutral_pct": 27.4,
+          "weighted_sentiment_score": -0.2147
+        },
+        "direction": {
+          "comment_count": 72,
+          "positive_pct": 45.83,
+          "negative_pct": 43.06,
+          "neutral_pct": 11.11,
+          "weighted_sentiment_score": -0.1436
+        },
+        "general": {
+          "comment_count": 5202,
+          "positive_pct": 32.51,
+          "negative_pct": 36.81,
+          "neutral_pct": 30.68,
+          "weighted_sentiment_score": -0.1229
+        }
+      }
+    }
+  }
+}

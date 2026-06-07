@@ -1,0 +1,573 @@
+{
+  "movie": "Dhurandhar",
+  "generated_at": "2026-06-03T14:38:12.691637+00:00",
+  "gap_analysis": [
+    {
+      "aspect": "technical",
+      "hindi_score": -0.0332,
+      "telugu_score": 0.2558,
+      "gap": 0.289
+    },
+    {
+      "aspect": "direction",
+      "hindi_score": 0.0866,
+      "telugu_score": -0.1436,
+      "gap": 0.2302
+    },
+    {
+      "aspect": "acting",
+      "hindi_score": 0.1818,
+      "telugu_score": -0.037,
+      "gap": 0.2188
+    },
+    {
+      "aspect": "audio",
+      "hindi_score": 0.3592,
+      "telugu_score": 0.2258,
+      "gap": 0.1334
+    },
+    {
+      "aspect": "plot",
+      "hindi_score": -0.0745,
+      "telugu_score": -0.1355,
+      "gap": 0.061
+    },
+    {
+      "aspect": "dub_quality",
+      "hindi_score": -0.2041,
+      "telugu_score": -0.2147,
+      "gap": 0.0106
+    }
+  ],
+  "top_comments": {
+    "acting": {
+      "hindi": {
+        "positive": [
+          {
+            "text": "Akshaye khanna is Obv the mvp, but not seeing much praise for Arjun rampal his look was killer, and torture scene was genuinely chilling.",
+            "weight": 1.0,
+            "confidence": 0.481,
+            "source": "reddit"
+          },
+          {
+            "text": "Really good movie. Comfortably the best Bollywood movie of the year for me and probably the second best Indian movie of the year after Eko.\nPersonally I liked the first half more because I am a sucker for world building. Phenomenal acting by everyone except like Sanju Baba who was just fine imo. \nIn",
+            "weight": 1.0,
+            "confidence": 0.5067,
+            "source": "reddit"
+          },
+          {
+            "text": "Just finished in Australia, almost fully booked out session. Great movie, it's refreshing to see a movie which has powerful moments without the need of over the top heroism and deafening BGM. Instead, the powerful moments are created with excellent acting and almost more importantly, editing. Some g",
+            "weight": 1.0,
+            "confidence": 0.8605,
+            "source": "reddit"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Okay I have conflicting emotions about this film because, although I appreciated the slick modern screenplay and writing, I felt that it was a bit too predictable and that there was a lot of set-up, set-up, set-up being the king at this point. There is a lot of gory and detailed information in place",
+            "weight": 1.0,
+            "confidence": 0.4834,
+            "source": "reddit"
+          },
+          {
+            "text": "The 26/11 scene involved Ranveer's disbelief and Arjun directing over phone, but I couldn't help noticing AK's expeessions in that scene",
+            "weight": 1.0,
+            "confidence": 0.7432,
+            "source": "reddit"
+          },
+          {
+            "text": "Full of flamboyance !!\nSanjay Dutt and Akshaye Khanna light up the screen everytime they appear !!\nRanveer Singh will get more flair in the sequel (March 2026) !!\nLast half an hour felt a little dragged and  that makes u loose patience !!\nIf you really want to spend 3 n a half hours watching this, m",
+            "weight": 1.0,
+            "confidence": 0.3846,
+            "source": "reddit"
+          }
+        ]
+      },
+      "telugu": {
+        "positive": [
+          {
+            "text": "Hard disagree brother! I think it's a masterpiece and the praise is well deserved!",
+            "weight": 1.0,
+            "confidence": 0.9222,
+            "source": "reddit"
+          },
+          {
+            "text": "as someone who knows one of the actors in those tweets really well. I confirm they genuinely enjoyed it!",
+            "weight": 1.0,
+            "confidence": 0.892,
+            "source": "reddit"
+          },
+          {
+            "text": "I am not questioning about openness and I understand about preferences. I find Vijay to be overrated despite being one of the biggest stars of Tamil industry. But Balayya has been an enigma for me. Guy has a huge fan base, he deliver bangers but I have always been unable to figure how? Stunt choreog",
+            "weight": 1.0,
+            "confidence": 0.4614,
+            "source": "reddit"
+          }
+        ],
+        "negative": [
+          {
+            "text": "You’re being sarcastic right? 😂",
+            "weight": 1.0,
+            "confidence": 0.5559,
+            "source": "reddit"
+          },
+          {
+            "text": "Exactly to watching telugu movies as a telugu girl sucks. The actress are north Indian who don't speak the fucking language and hence are given flower pot roles and the shittiest writing and story line ever",
+            "weight": 1.0,
+            "confidence": 0.9598,
+            "source": "reddit"
+          },
+          {
+            "text": "Talent is subjective then, there ends your argument.\nWhen it comes to movies, its art and that's subjective too, stop yapping, I agree that Tamil films are richer in quality but idk whether it's the government or anything that doesn't let \"outsiders\" (as in actors from other states or their movies) ",
+            "weight": 1.0,
+            "confidence": 0.546,
+            "source": "reddit"
+          }
+        ]
+      }
+    },
+    "audio": {
+      "hindi": {
+        "positive": [
+          {
+            "text": "The use of retro songs in D1 was top notch. I enjoyed every one of them. Ranveers hair flip on Rambha ho is everything.",
+            "weight": 1.0,
+            "confidence": 0.8039,
+            "source": "reddit"
+          },
+          {
+            "text": "Fire song tho",
+            "weight": 1.0,
+            "confidence": 0.7041,
+            "source": "reddit"
+          },
+          {
+            "text": "Can anyone tell me where can I get song played during Rahman's son Naeem's funeral: Rahe Na Rahe Hum. It has a nice tune. It's been playing in my mind after watching Dhurandhar",
+            "weight": 1.0,
+            "confidence": 0.5197,
+            "source": "reddit"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Okay so… the movie just didn’t work for me at all. I was honestly tempted to walk out a few minutes after the interval. The OSTs were rough  after a point it all just felt like loud noise rather than something that actually added to the scenes. And the way they tried to bring back old songs just fel",
+            "weight": 1.0,
+            "confidence": 0.9374,
+            "source": "reddit"
+          },
+          {
+            "text": "Dhurandhar 2 does have more on your face pandering to the BJP compared to the 1st part but it's still a good movie. It might put you off if you are too politically minded when watching it. For me the only major disappointment was the soundtrack. Akshay Khanna felt like a better antagonist. Major Iqb",
+            "weight": 1.0,
+            "confidence": 0.9318,
+            "source": "reddit"
+          },
+          {
+            "text": "Nah feels the same, but I didn't like the bgm and songs",
+            "weight": 1.0,
+            "confidence": 0.8201,
+            "source": "reddit"
+          }
+        ]
+      },
+      "telugu": {
+        "positive": [
+          {
+            "text": "Kannada dub is rocking",
+            "weight": 1.0,
+            "confidence": 0.7537,
+            "source": "reddit"
+          },
+          {
+            "text": "Really high. Looking forward to it. I don't mind remakes and remixes, if done tastefully. Old songs used as BGM of first part elevated the scenes manifold, ten on ten theater experience. I love the old version of karwan and equally enjoyed this new version, if not more. Eager to see what Shashwat br",
+            "weight": 1.0,
+            "confidence": 0.8436,
+            "source": "reddit"
+          },
+          {
+            "text": "i'm sorry but i didit mind any censoring as long \"Assalamualaikum Lyari\" sounded just as good on my sound system as it did in the theatre.",
+            "weight": 1.0,
+            "confidence": 0.456,
+            "source": "reddit"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Thallumaala range soundtrack lekapothe chudam",
+            "weight": 1.0,
+            "confidence": 0.4628,
+            "source": "reddit"
+          },
+          {
+            "text": "Why are the songs not dubbed in telugu version. Time taking ani vadilesara",
+            "weight": 1.0,
+            "confidence": 0.7703,
+            "source": "reddit"
+          },
+          {
+            "text": "I just hope they leave old songs alone and dont try to remix like they did to Na to Karvaan ki Talaash hai... i enjoyed the old sounds for background music (rambha ho sambha ho and Hawa Hawa) but hated the remix they did to a classic. Just leave it alone.",
+            "weight": 1.0,
+            "confidence": 0.3709,
+            "source": "reddit"
+          }
+        ]
+      }
+    },
+    "technical": {
+      "hindi": {
+        "positive": [
+          {
+            "text": "IMAX = bigger screen + louder/better sound + sharper picture + more immersive experience.",
+            "weight": 1.0,
+            "confidence": 0.7048,
+            "source": "reddit"
+          },
+          {
+            "text": "too much editing i felt, building on the hype, 1st trailer had little to no stylised editing. but its alright, success and fandom can lead to doing a bit extra you know. but its okay. since film was already shot and editing before, we can be assured that the main film will feel the same.",
+            "weight": 1.0,
+            "confidence": 0.4216,
+            "source": "reddit"
+          },
+          {
+            "text": "This was edited by Yami’s brother !!! Goddd , he is only 22 what a edit yarrrrrr",
+            "weight": 0.6582,
+            "confidence": 0.5976,
+            "source": "youtube"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Don't watch then, who is forcing you? You go snd make 10 second trending slow mo dance , sigma reels",
+            "weight": 1.0,
+            "confidence": 0.6007,
+            "source": "reddit"
+          },
+          {
+            "text": "The trailer doesn't have the editing flourish which the teaser or the first film trailer or other marketing material had. It's a normal good edit. The teaser for 2nd was so nicely cut. This one pales in comparison.",
+            "weight": 1.0,
+            "confidence": 0.5186,
+            "source": "reddit"
+          },
+          {
+            "text": "Yes, the colours are more bright and vibrant on this one. Also the thumbnail is very poorly edited",
+            "weight": 1.0,
+            "confidence": 0.8706,
+            "source": "reddit"
+          }
+        ]
+      },
+      "telugu": {
+        "positive": [
+          {
+            "text": "Lmao calling RRR tasteless cinematography? It literally has the best shots.",
+            "weight": 1.0,
+            "confidence": 0.4877,
+            "source": "reddit"
+          },
+          {
+            "text": "Editor shows his brilliance in the edit cut. 🔥",
+            "weight": 0.1996,
+            "confidence": 0.8789,
+            "source": "youtube"
+          },
+          {
+            "text": "Watching atleast 5 times every day to feel the editing,bgm,visuals ,high ,actually a drug💥💥💥💥💥",
+            "weight": 0.1996,
+            "confidence": 0.5202,
+            "source": "youtube"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Ekkuva editing chestunnav bro kallu potunay pics changes to antha editing vaddu",
+            "weight": 0.1224,
+            "confidence": 0.3802,
+            "source": "youtube"
+          },
+          {
+            "text": "Starting red bulk screen edit chesinodu evadu ra k ramp chesadu super dhani kosamaina cinema trailer repeats lo chudanu❤❤anni oscars vunte avanni editor ki evandra babu❤❤",
+            "weight": 0.0772,
+            "confidence": 0.397,
+            "source": "youtube"
+          },
+          {
+            "text": "​@BookonBed Pushpa 2 endhuku antha hit aindhi ante, maas action, slow motion scenes, some epic dialogues, and some shit, andhuke aindhi, but dhurandhar isn't like that, it uses good cinematography, color filters, music etc",
+            "weight": 0.05,
+            "confidence": 0.3717,
+            "source": "youtube"
+          }
+        ]
+      }
+    },
+    "plot": {
+      "hindi": {
+        "positive": [
+          {
+            "text": "Finally 🔥",
+            "weight": 1.0,
+            "confidence": 0.5949,
+            "source": "reddit"
+          },
+          {
+            "text": "The narrative and character writing in the film is absolute perfection.",
+            "weight": 1.0,
+            "confidence": 0.8801,
+            "source": "reddit"
+          },
+          {
+            "text": "Amazing movie, second part is on",
+            "weight": 1.0,
+            "confidence": 0.922,
+            "source": "reddit"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Don't take her.. Movie is really good, but the violent scenes are not for the faint hearted, some are really really gory & gruesome. Also too many cuss words..",
+            "weight": 1.0,
+            "confidence": 0.9256,
+            "source": "reddit"
+          },
+          {
+            "text": "Movie is average. If you can't move the plot further than that in 3 and a half hours then just make a series. Also it is so clear the original screenplay was for an action crime saga that was changed at the last moment to put the jingoistic spin on it.",
+            "weight": 1.0,
+            "confidence": 0.911,
+            "source": "reddit"
+          },
+          {
+            "text": "And this is the climax.",
+            "weight": 1.0,
+            "confidence": 0.4728,
+            "source": "reddit"
+          }
+        ]
+      },
+      "telugu": {
+        "positive": [
+          {
+            "text": "i hope they hired a good writer, someone like Rakendu Mouli",
+            "weight": 1.0,
+            "confidence": 0.488,
+            "source": "reddit"
+          },
+          {
+            "text": "Yeah! This film is a testament of how word-of-mouth can change the fate of a film even breaking the language and regional barriers..... I watched this film on 15th day of release yet it had 70% occupancy on my show and then again on 20th day of release with 50% occupancy. This is a big thing for a n",
+            "weight": 1.0,
+            "confidence": 0.6908,
+            "source": "reddit"
+          },
+          {
+            "text": "Year starting with chaava and end with dhurandhar... Kicking bads of bollywood 😂😂😂",
+            "weight": 0.5632,
+            "confidence": 0.4208,
+            "source": "youtube"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Spoiler alert.",
+            "weight": 1.0,
+            "confidence": 0.5486,
+            "source": "reddit"
+          },
+          {
+            "text": "Vallu katha,screen play raskunte two parts ayyindi. Manollu rendu partlu ravadaniki screenplay rastaru. Malli okkokka part ki 8hrs footage shoot chestunnaru. Manollaki dabbulunnay ane balupu anni vidhaluga kanipistadi",
+            "weight": 1.0,
+            "confidence": 0.3813,
+            "source": "reddit"
+          },
+          {
+            "text": "Peak detailing",
+            "weight": 1.0,
+            "confidence": 0.3973,
+            "source": "reddit"
+          }
+        ]
+      }
+    },
+    "dub_quality": {
+      "hindi": {
+        "positive": [
+          {
+            "text": "Yup a wordplay , atleast ive been believing it is one for a long time",
+            "weight": 1.0,
+            "confidence": 0.4538,
+            "source": "reddit"
+          },
+          {
+            "text": "Repetitive ho jata. I like this change.",
+            "weight": 1.0,
+            "confidence": 0.6753,
+            "source": "reddit"
+          },
+          {
+            "text": "i hope not, its the voice of singers in both the retro and new music that has impressed the audience, i mean imagine if they dub Teri ni karavan in telugu",
+            "weight": 1.0,
+            "confidence": 0.4984,
+            "source": "reddit"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Hi porki",
+            "weight": 1.0,
+            "confidence": 0.3791,
+            "source": "reddit"
+          },
+          {
+            "text": "But we need good dubbing bas pan India ke naam pe low effort nahi chalega",
+            "weight": 1.0,
+            "confidence": 0.4013,
+            "source": "reddit"
+          },
+          {
+            "text": "Even Dothraki & Klingon?",
+            "weight": 1.0,
+            "confidence": 0.5629,
+            "source": "reddit"
+          }
+        ]
+      },
+      "telugu": {
+        "positive": [
+          {
+            "text": "😂😂😂😂 as if Hindi dubbing of movies is amazing.. seriously. Don't defend anything bro...accept it that hindi movies get differential treatment...or watch in Hindi na..as if Telugu cinema hall going audience don't know Hindi",
+            "weight": 1.0,
+            "confidence": 0.4567,
+            "source": "reddit"
+          },
+          {
+            "text": "There were scenes where Ranveer Singh, Akshay Khanna.. were giving/ screaming proper 'maa, behen ki galiya'",
+            "weight": 1.0,
+            "confidence": 0.3797,
+            "source": "reddit"
+          },
+          {
+            "text": "Ala em ledu. Dubbing cheyatam easy nowadays. Already vallu dubbing work start chesi untaru for Netflix. So koncham speed up chestharu.",
+            "weight": 1.0,
+            "confidence": 0.3773,
+            "source": "reddit"
+          }
+        ],
+        "negative": [
+          {
+            "text": "D2 producer evaro telusa bro! India lo andarikanna pedda talakaya ne D2 producer",
+            "weight": 1.0,
+            "confidence": 0.3788,
+            "source": "reddit"
+          },
+          {
+            "text": "That's the thing we know they are english movies dubbed by us for us . Here Pakistanis speak the same language we speak That's why I said for other language folks it would seem normal not for hindi speakers .",
+            "weight": 1.0,
+            "confidence": 0.493,
+            "source": "reddit"
+          },
+          {
+            "text": "Ayya aa telugu dubbing rocky bhai enduku unnadu",
+            "weight": 1.0,
+            "confidence": 0.3704,
+            "source": "reddit"
+          }
+        ]
+      }
+    },
+    "direction": {
+      "hindi": {
+        "positive": [
+          {
+            "text": "Adithya Dhar built this thing with surgical precision. The intensity, pacing, character work, everything feels locked in.",
+            "weight": 1.0,
+            "confidence": 0.5099,
+            "source": "reddit"
+          },
+          {
+            "text": "Same time just flew, the pacing was fast ngl still good",
+            "weight": 1.0,
+            "confidence": 0.6702,
+            "source": "reddit"
+          },
+          {
+            "text": "Haha don't believe him the movie is long Yes but doesn't make you feel bored at all it's fkn amazing to watch",
+            "weight": 1.0,
+            "confidence": 0.7574,
+            "source": "reddit"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Well there isn't much extra violent scenes than that were shown in the trailer. All those violent scenes from the trailer are spread out through a 3.5 hour movie, so it isn't too gory.",
+            "weight": 1.0,
+            "confidence": 0.7297,
+            "source": "reddit"
+          },
+          {
+            "text": "Movie is not engaging so far! It's very dull don't know who these people are saying the movie is good or interval happened considering the first show was at 8 am so the interval won't happen before 10 am. Madhavan has been given the biggest part so far and the movie is divided in chapters. Ranveer c",
+            "weight": 1.0,
+            "confidence": 0.8463,
+            "source": "reddit"
+          },
+          {
+            "text": "I walked after interwal too 🤝 i thought if anurag kashyap had directed this it would have been next level",
+            "weight": 1.0,
+            "confidence": 0.3657,
+            "source": "reddit"
+          }
+        ]
+      },
+      "telugu": {
+        "positive": [
+          {
+            "text": "Shashwat recently said in an interview he feels he had to rush through the album and he couldve added more songs. Lets hope those are added or atleast released with dhurandhar 2 and also always keep low expectations.\n\"Expect dissappointment so that you are never dissapointed\"\nAditya dhar has great d",
+            "weight": 1.0,
+            "confidence": 0.5282,
+            "source": "reddit"
+          },
+          {
+            "text": "4 hrs time teliyaledu… its an experience… great direction 🔥🔥🔥",
+            "weight": 0.6842,
+            "confidence": 0.7031,
+            "source": "youtube"
+          },
+          {
+            "text": "Dhurandar Bro ,I knew it already cause of Adhitya who directed  this film and also he is Director of URI..",
+            "weight": 0.4717,
+            "confidence": 0.4031,
+            "source": "youtube"
+          }
+        ],
+        "negative": [
+          {
+            "text": "Telugu cinema is mostly dead unless we see the rise of good thoughtful directors who can blend logic, commerce and most importantly good scripts.",
+            "weight": 1.0,
+            "confidence": 0.629,
+            "source": "reddit"
+          },
+          {
+            "text": "I wanna watch it to understand what the fuss is all about. If this turns out to be another RRR or similar Masala movie with no logic and tasteless Cinematography then I'll never touch indian masala cinema again. I'm done with these shits.",
+            "weight": 1.0,
+            "confidence": 0.9322,
+            "source": "reddit"
+          },
+          {
+            "text": "Damn. So theoretically the film would be sped up for achieving 25 fps. And this may be miniscule to be noted. Is this what is actually happening?",
+            "weight": 1.0,
+            "confidence": 0.635,
+            "source": "reddit"
+          }
+        ]
+      }
+    }
+  },
+  "recommendations": [
+    "Hindi audience expressed concerns about Technical. Consider revisiting this aspect for future releases targeting the Hindi market.",
+    "Telugu audience expressed concerns about Technical. Improvements here could significantly boost reception in the Telugu market.",
+    "Hindi audience expressed concerns about Direction. Consider revisiting this aspect for future releases targeting the Hindi market.",
+    "Telugu audience expressed concerns about Direction. Improvements here could significantly boost reception in the Telugu market.",
+    "Hindi audience expressed concerns about Acting. Consider revisiting this aspect for future releases targeting the Hindi market.",
+    "Telugu audience expressed concerns about Acting. Improvements here could significantly boost reception in the Telugu market.",
+    "Telugu audience expressed concerns about Audio. Improvements here could significantly boost reception in the Telugu market.",
+    "Hindi audience expressed concerns about Plot. Consider revisiting this aspect for future releases targeting the Hindi market.",
+    "Telugu audience expressed concerns about Plot. Improvements here could significantly boost reception in the Telugu market.",
+    "Hindi audience expressed concerns about Dub Quality. Consider revisiting this aspect for future releases targeting the Hindi market.",
+    "Telugu audience expressed concerns about Dub Quality. Improvements here could significantly boost reception in the Telugu market."
+  ]
+}
